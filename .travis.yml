@@ -7,3 +7,9 @@ services:
 
 install:
 	- echo "nothing needs to be installed"
+
+before_script:
+	- echo "no tests"
+
+script:
+	- echo "in script"
