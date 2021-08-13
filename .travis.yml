@@ -1,3 +1,15 @@
 language: node_js
 node_js:
 - 13
+
+services:
+- docker
+
+install:
+- echo "nothing needs to be installed"
+
+before_script:
+- echo "no tests"
+
+script:
+- echo "in script"
